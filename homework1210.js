@@ -28,4 +28,4 @@ for (let i = 0; i < longArray.length; i++) {
 }
 let longest = Math.max(...longArrayNum)
 console.log(longest)
-console.log(longArrayNum)
+
