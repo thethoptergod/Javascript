@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <label for="num1">Number 1: </label>
+        <input type="text" id="num1">
+    </div>
+    <br>
+    <div>
+        <label for="num2">Number 2: </label>
+        <input type="text" id="num2">
+    </div>
+    <br>
+    <div>
+        <label for="num3">Number 3: </label>
+        <input type="text" id="num3">
+    </div>
+    <br>
+    <button onclick="maxOfThree()">Calculate</button>
+    <p>Largest Number: <span id="bignum"></span></p>
+    <div>
+        <label for="cel">Enter Celsius: </label>
+        <input type="text" id="cel">
+    </div>
+    <br>
+    <button onclick="celsiusToFahrenheit()">Calculate</button>
+    <p>Fahrenheit: <span id=celtofah></span></p>
+    <div>
+        <label for="fah">Enter Fahrenheit: </label>
+        <input type="text" id="fah">
+    </div>
+    <br>
+    <button onclick="fahrenheitToCelsius()">Calculate</button>
+    <p>Celsius: <span id=fahtocel></span></p>
+    <br>
+    <button onclick="swimFilter()">Filter for students into swimming</button>
+    <p>Students: <span id=swimFilterResult></span></p>
+    <div>
+        <label for="fil">Enter activity to filter for: </label>
+        <input type="text" id="fil">
+    </div>
+    <br>
+    <button onclick="actFilter()">Filter</button>
+    <p>Students: <span id=actFilterResult></span></p>
+    <br>
+    <button onclick="arrayPrint()">Iterate</button>
+    <br>
+    <p>Elements: <span id="iterateResult1"></span></p>
+    <p>Location: <span id="iterateResult2"></span></p>
+    <script src="homework1212.js">
+        
+        // const nums = [document.getElementById("num1").value,document.getElementById("num2").value,document.getElementById("num3").value]
+        // let maxnum = Math.max(nums)
+        // function maxOfThree(){
+        //     document.getElementById("bignum").innerHTML = String(maxnum);
+        // }
+        // console.log(nums)
+    </script>
+</body>
+</html>
