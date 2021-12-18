@@ -12,6 +12,6 @@ console.log(promise)
 // rusult is value
 
 // reject(error) if error has occured, returns "error" as error object
-let promise = new Promise(function(resolve, reject){
-    setTimeout
-})
+// let promise = new Promise(function(resolve, reject){
+//     setTimeout
+// })
